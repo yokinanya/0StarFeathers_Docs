@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/logo.png',
+  favicon: 'img/4.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -57,8 +57,8 @@ const config = {
       navbar: {
         title: '铃星羽',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.png',
+          alt: '0SF Logo',
+          src: 'img/4.png',
         },
         items: [
           {

@@ -16,9 +16,9 @@ const FeatureList = [
     description: <>作者Bilibili账号</>,
   },
   {
-    title: 'Twitter@yokinamoe',
-    Img: '../img/3.jpg',
-    Url: 'https://twitter.com/yokinamoe',
+    title: '铃星羽2nd',
+    Img: '../img/4.png',
+    Url: '',
     description: 'Nya~'
   },
 ]
