@@ -7,7 +7,8 @@ title: ShindanMaker
 > 就是要公开处刑！
 ---
 ## 使用方法
-\#ShindanMaker [占卜名称] [占卜对象名称]
+\#ShindanMaker [占卜名称] [占卜对象名称]<br/><br/>
+权限等级：50
 
 ---
 插件作者：Ailitonia

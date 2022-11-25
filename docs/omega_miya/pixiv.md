@@ -26,7 +26,8 @@ title: Pixiv
 &ensp;'-o', '--order': 排序方式, 可选: 'date_d', 'popular_d'<br/>
 &ensp;'-l', '--like': 筛选最低收藏数<br/>
 &ensp;'-d', '--from-days-ago': 筛选作品发布日期, 从几天前起始发布的作品<br/>
-&ensp;'-s', '--safe-mode': NSFW 模式, 可选: 'safe', 'all', 'r18'
+&ensp;'-s', '--safe-mode': NSFW 模式, 可选: 'safe', 'all', 'r18'<br/><br/>
+权限等级：50
 
 ---
 插件作者：Ailitonia

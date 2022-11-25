@@ -6,7 +6,7 @@ title: NHentai
 ---
 ## 使用方法
 \#nh search [tag]<br/>
-\#nh download [id]<br/>
+\#nh download [id]
 
 ---
 插件作者：Ailitonia

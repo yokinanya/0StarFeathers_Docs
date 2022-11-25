@@ -5,7 +5,8 @@ title: HttpCat
 
 ---
 ## 使用方法
-\#HttpCat [code]
+\#HttpCat [code]<br/><br/>
+权限等级：20
 
 ---
 插件作者：Ailitonia
