@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config = {
   title: '铃星羽帮助文档',
   tagline: 'Nya~',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://0sf.yokinanya.icu/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
