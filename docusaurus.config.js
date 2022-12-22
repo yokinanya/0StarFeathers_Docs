@@ -26,7 +26,26 @@ const config = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
-
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * 多实例插件必填。
+         */
+        id: 'sponsor',
+        /**
+         * 你的网站上博客的 URL 路由。
+         * *请务必不要*添加末尾斜杠。
+         */
+        routeBasePath: 'sponsor',
+        /**
+         * 相对于站点目录的文件系统路径。
+         */
+        path: './sponsor',
+      },
+    ],
+  ],
   presets: [
     [
       'classic',
@@ -43,6 +62,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/yokinanya/0StarFeathers_Docs/tree/master',
+          blogSidebarTitle: '最近更新',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -73,6 +93,11 @@ const config = {
             position: 'left',
           },
           {
+            to: '/sponsor',
+            label: '赞赏与支持',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/yokinanya/0StarFeathers_Docs',
             label: 'GitHub',
             position: 'right',
@@ -97,6 +122,10 @@ const config = {
               {
                 label: '更新日志',
                 to: '/blog',
+              },
+              {
+                to: '/sponsor',
+                label: '赞助列表',
               },
               {
                 label: 'GitHub',
